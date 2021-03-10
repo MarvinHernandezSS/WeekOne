@@ -33,6 +33,9 @@ public class GuessNumber {
 		
 		Integer Guess = Integer.parseInt(System.console().readLine());
 		
+		//could of used an array to simulate the answers
+		//will learn about Scanner class, which does reads and tryParses
+		Integer [] preDetermined = {1,2,3,4,5};
 		
 		/*
 		 * // if (A.tryParseInt(userReply)) { // Guess = A.successfulParse(userReply);
